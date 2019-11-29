@@ -18,6 +18,7 @@ public class Annotations extends TestBase{
 	{
 		Login();
 		System.out.println("This block executes before each Test");
+		System.out.println("Testing for GIT");
 	}
 	
 	@Test(dataProvider="getData")
